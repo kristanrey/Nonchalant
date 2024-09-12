@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="container"><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/226/237/small/abstract-technology-connection-data-concept-circuit-lines-board-with-nodes-and-geometric-elements-lighting-effect-on-blue-background-vector.jpg');
+                background-size: cover;  
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            .container {
+                width: 300px;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+    
+            h2 {
+                text-align: center;
+            }
+    
+            .form {
+                margin-bottom: 15px;
+            }
+    
+            .form label {
+                display: block;
+                margin-bottom: 5px;
+            }
+    
+            .form input {
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+            }
+    
+            .form button {
+                width: 100%;
+                padding: 10px;
+                background-color: #007bff;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+    
+            .form button:hover {
+                background-color: #0056b3;
+            }
+    
+            .toggle {
+                text-align: center;
+                margin-top: 10px;
+            }
+    
+            .toggle a {
+                color: #007bff;
+                text-decoration: none;
+            }
+    
+            .toggle a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    
+    
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form">
+                <button type="submit">Login</button>
+            </div>
+            <div class="toggle">
+                <a href="register.html">Don't have an account? Register</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

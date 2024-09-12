@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+    <style>
+        
+        .container {
+            width: 300px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-input {
+            margin-bottom: 15px;
+        }
+
+        .form-input input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-regis {
+            text-align: center;
+        }
+
+        .form-regis button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .form-regis button:hover {
+            background-color: #0056b3;
+        }
+
+        .toggle-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .toggle-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .toggle-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="register.php" method="post">
+            <div class="form-input">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="form-input">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-input">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-input">
+                <input type="text" id="Fname" name="Fname" placeholder="First Name" required>
+            </div>
+            <div class="form-input">
+                <input type="text" id="Lname" name="Lname" placeholder="Last Name" required>
+            </div>
+            <div class="form-input">
+                <input type="text" id="Mname" name="Mname" placeholder="Middle Name (OPTIONAL)">
+            </div>
+            <div class="form-input">
+                <input type="date" id="Bday" name="Birthday" required>
+            </div>
+            <div class="form-input">
+                <input type="text" id="Contact" name="Contact" placeholder="Contact" required>
+            </div>
+            <div class="form-regis">
+                <button type="submit">Register</button>
+            </div>
+            <div class="toggle-link">
+                <a href="index.html">Already have an account? Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
